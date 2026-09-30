@@ -51,3 +51,9 @@
     }
   }
 }
+
+/* Vertical text for the sidebar navigation (reads bottom to top). */
+@utility text-vertical {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}

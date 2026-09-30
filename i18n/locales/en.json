@@ -5,5 +5,32 @@
       "title": "Portfolio",
       "description": "Professional web development portfolio."
     }
+  },
+  "brand": {
+    "name": "Andrés",
+    "initial": "A",
+    "tagline": "Web development with care."
+  },
+  "nav": {
+    "label": "Main navigation",
+    "home": "Go to home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "footer": {
+    "social": {
+      "label": "Social links",
+      "github": "GitHub"
+    },
+    "copyright": "© {year} {name}. All rights reserved."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
   }
 }
