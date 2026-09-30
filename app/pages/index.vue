@@ -8,9 +8,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="grid min-h-dvh place-items-center p-6">
+  <section class="grid min-h-[70dvh] place-items-center p-6">
     <h1 class="font-display text-5xl font-extrabold text-headline">
       {{ t('home.title') }}
     </h1>
-  </main>
+  </section>
 </template>
