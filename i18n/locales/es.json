@@ -8,7 +8,8 @@
       "greeting": "Hola, soy",
       "role": "Estudiante de Ingeniería en Sistemas Computacionales y desarrollador web.",
       "viewProjects": "Ver proyectos ↗",
-      "aboutMe": "Sobre mí"
+      "aboutMe": "Sobre mí",
+      "japanese": "こんにちは。ウェブ開発が好きです。"
     },
     "skills": {
       "title": "Tecnologías",

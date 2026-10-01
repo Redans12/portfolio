@@ -24,5 +24,6 @@ useHead({
       <AppFooter />
     </div>
     <ContactFab />
+    <CustomCursor />
   </div>
 </template>

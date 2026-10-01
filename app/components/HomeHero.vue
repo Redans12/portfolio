@@ -4,11 +4,13 @@ const localePath = useLocalePath()
 </script>
 
 <template>
-  <section class="flex min-h-dvh flex-col justify-center gap-6 px-6 py-24 lg:px-16">
+  <section class="relative flex min-h-dvh flex-col justify-center gap-6 px-6 py-24 lg:px-16">
+    <FloatingIcons />
     <p class="font-mono text-sm text-accent">{{ t('home.hero.greeting') }}</p>
     <h1 class="font-display text-5xl font-extrabold text-headline sm:text-7xl lg:text-8xl">
       <TypedName :text="t('brand.name')" />
     </h1>
+    <JapaneseLine :text="t('home.hero.japanese')" />
     <p class="max-w-xl text-lg text-paragraph">{{ t('home.hero.role') }}</p>
     <div class="mt-4 flex flex-wrap gap-4">
       <ButtonLink :to="localePath({ name: 'projects' })">{{
