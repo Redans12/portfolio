@@ -1,0 +1,6 @@
+[
+  { "slug": "cinefind", "tags": ["TF-IDF", "Web"], "year": 2026 },
+  { "slug": "pml-platform", "tags": ["Full-stack", "Data"], "year": 2026 },
+  { "slug": "eye-clinic", "tags": ["Web"], "year": 2025 },
+  { "slug": "restaurant-orders", "tags": ["App"], "year": 2025 }
+]
