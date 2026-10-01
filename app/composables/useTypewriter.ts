@@ -15,8 +15,7 @@ export function useTypewriter(source: () => string) {
   function start(text: string) {
     stop()
 
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (prefersReducedMotion) {
+    if (prefersReducedMotion()) {
       displayed.value = text
       return
     }
