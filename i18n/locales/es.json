@@ -1,9 +1,23 @@
 {
   "home": {
-    "title": "Proyecto base listo",
     "seo": {
       "title": "Andrés | Portfolio",
       "description": "Portfolio de Andrés, estudiante de Ingeniería en Sistemas Computacionales y desarrollador web."
+    },
+    "hero": {
+      "greeting": "Hola, soy",
+      "role": "Estudiante de Ingeniería en Sistemas Computacionales y desarrollador web.",
+      "viewProjects": "Ver proyectos ↗",
+      "aboutMe": "Sobre mí"
+    },
+    "skills": {
+      "title": "Tecnologías",
+      "description": "Estas son las {count} herramientas con las que trabajo en este portfolio."
+    },
+    "cta": {
+      "title": "¿Trabajamos juntos?",
+      "description": "Si tienes una idea o una oportunidad, escríbeme.",
+      "button": "Contacto ↗"
     }
   },
   "brand": {
