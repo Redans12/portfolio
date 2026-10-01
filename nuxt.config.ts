@@ -19,5 +19,11 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
     ],
     detectBrowserLanguage: false,
+    customRoutes: 'config',
+    pages: {
+      about: { es: '/sobre-mi', en: '/about' },
+      'projects/index': { es: '/proyectos', en: '/projects' },
+      contact: { es: '/contacto', en: '/contact' },
+    },
   },
 })
