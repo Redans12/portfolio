@@ -1,4 +1,4 @@
-# Portfolio de Andrés
+# Portfolio - Andrés
 
 Portfolio personal bilingüe (español / inglés) hecho con Nuxt, Vue 3 y TypeScript como prueba técnica de residencias. Incluye una página de inicio animada, una sección "Sobre mí" alimentada por la API pública de GitHub, un listado de proyectos con página de detalle y un formulario de contacto accesible.
 
