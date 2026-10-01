@@ -24,7 +24,8 @@
   "brand": {
     "name": "Andrés",
     "initial": "A",
-    "tagline": "Web development with care."
+    "tagline": "Web development with care.",
+    "nameJapanese": "アンドレス"
   },
   "nav": {
     "label": "Main navigation",

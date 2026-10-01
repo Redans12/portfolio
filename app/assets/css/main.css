@@ -25,6 +25,19 @@
   --font-pixel: 'DotGothic16', sans-serif;
 
   --spacing-sidebar: 5.25rem;
+
+  --animate-caret: caret 1.1s ease-in-out infinite;
+
+  @keyframes caret {
+    0%,
+    100% {
+      transform: scaleY(0);
+    }
+    40%,
+    60% {
+      transform: scaleY(1);
+    }
+  }
 }
 
 @layer base {
