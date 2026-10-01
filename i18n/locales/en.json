@@ -2,8 +2,8 @@
   "home": {
     "title": "Base project ready",
     "seo": {
-      "title": "Portfolio",
-      "description": "Professional web development portfolio."
+      "title": "Andrés | Portfolio",
+      "description": "Portfolio of Andrés, computer systems engineering student and web developer."
     }
   },
   "brand": {
@@ -32,5 +32,26 @@
   },
   "a11y": {
     "skipToContent": "Skip to content"
+  },
+  "about": {
+    "title": "About me",
+    "seo": {
+      "title": "About me | Portfolio",
+      "description": "Get to know my profile, my GitHub activity and my latest repositories."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "seo": {
+      "title": "Projects | Portfolio",
+      "description": "A selection of the projects I have built."
+    }
+  },
+  "contact": {
+    "title": "Let's talk",
+    "seo": {
+      "title": "Contact | Portfolio",
+      "description": "Write to me if you have a project or an internship opportunity."
+    }
   }
 }

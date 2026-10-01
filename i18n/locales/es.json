@@ -2,8 +2,8 @@
   "home": {
     "title": "Proyecto base listo",
     "seo": {
-      "title": "Portfolio",
-      "description": "Portfolio profesional de desarrollo web."
+      "title": "Andrés | Portfolio",
+      "description": "Portfolio de Andrés, estudiante de Ingeniería en Sistemas Computacionales y desarrollador web."
     }
   },
   "brand": {
@@ -32,5 +32,26 @@
   },
   "a11y": {
     "skipToContent": "Saltar al contenido"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "seo": {
+      "title": "Sobre mí | Portfolio",
+      "description": "Conoce mi perfil, mi actividad en GitHub y mis repositorios más recientes."
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "seo": {
+      "title": "Proyectos | Portfolio",
+      "description": "Una selección de los proyectos que he desarrollado."
+    }
+  },
+  "contact": {
+    "title": "Hablemos",
+    "seo": {
+      "title": "Contacto | Portfolio",
+      "description": "Escríbeme si tienes un proyecto o una oportunidad de prácticas."
+    }
   }
 }

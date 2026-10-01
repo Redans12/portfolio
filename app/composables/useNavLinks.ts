@@ -10,8 +10,8 @@ export function useNavLinks() {
   const localePath = useLocalePath()
 
   return computed<NavLink[]>(() => [
-    { key: 'about', label: t('nav.about'), to: localePath('/about') },
-    { key: 'projects', label: t('nav.projects'), to: localePath('/projects') },
-    { key: 'contact', label: t('nav.contact'), to: localePath('/contact') },
+    { key: 'about', label: t('nav.about'), to: localePath({ name: 'about' }) },
+    { key: 'projects', label: t('nav.projects'), to: localePath({ name: 'projects' }) },
+    { key: 'contact', label: t('nav.contact'), to: localePath({ name: 'contact' }) },
   ])
 }
