@@ -1,9 +1,23 @@
 {
   "home": {
-    "title": "Base project ready",
     "seo": {
       "title": "Andrés | Portfolio",
       "description": "Portfolio of Andrés, computer systems engineering student and web developer."
+    },
+    "hero": {
+      "greeting": "Hi, I'm",
+      "role": "Computer Systems Engineering student and web developer.",
+      "viewProjects": "View projects ↗",
+      "aboutMe": "About me"
+    },
+    "skills": {
+      "title": "Tech stack",
+      "description": "These are the {count} tools I work with in this portfolio."
+    },
+    "cta": {
+      "title": "Shall we work together?",
+      "description": "If you have an idea or an opportunity, write to me.",
+      "button": "Contact ↗"
     }
   },
   "brand": {
