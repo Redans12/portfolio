@@ -19,7 +19,7 @@ const year = new Date().getFullYear()
               :href="link.href"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-display text-lg font-medium text-headline transition-colors hover:text-brand"
+              class="font-display text-lg font-medium text-headline transition-colors hover:text-accent"
             >
               <span aria-hidden="true">↗</span>
               {{ t(`footer.social.${link.key}`) }}

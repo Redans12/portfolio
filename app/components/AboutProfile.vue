@@ -32,7 +32,7 @@ const displayName = computed(() => props.user.name ?? props.user.login)
         :href="user.html_url"
         target="_blank"
         rel="noopener noreferrer"
-        class="mt-4 inline-block font-display text-sm font-semibold text-brand hover:underline"
+        class="mt-4 inline-block font-display text-sm font-semibold text-accent hover:underline"
       >
         {{ t('about.profile.viewOnGithub') }}
       </a>

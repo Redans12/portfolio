@@ -1,8 +1,11 @@
 <script setup lang="ts">
-const { t, locale } = useI18n()
+const { t } = useI18n()
+const head = useLocaleHead({ seo: true })
 
 useHead({
-  htmlAttrs: { lang: () => locale.value },
+  htmlAttrs: { lang: () => head.value.htmlAttrs?.lang },
+  link: () => head.value.link ?? [],
+  meta: () => head.value.meta ?? [],
 })
 </script>
 

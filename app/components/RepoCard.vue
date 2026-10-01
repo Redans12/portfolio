@@ -17,7 +17,7 @@ const updatedAt = computed(() =>
     class="flex h-full flex-col rounded-2xl border border-line bg-surface p-5 transition-colors focus-within:border-brand hover:border-brand"
   >
     <h3 class="font-display text-lg font-bold text-headline">
-      <a :href="repo.html_url" target="_blank" rel="noopener noreferrer" class="hover:text-brand">
+      <a :href="repo.html_url" target="_blank" rel="noopener noreferrer" class="hover:text-accent">
         {{ repo.name }} <span aria-hidden="true">↗</span>
       </a>
     </h3>
