@@ -52,6 +52,28 @@
     "seo": {
       "title": "About me | Portfolio",
       "description": "Get to know my profile, my GitHub activity and my latest repositories."
+    },
+    "profile": {
+      "avatarAlt": "{name}'s profile picture",
+      "noBio": "No bio on GitHub.",
+      "repos": "{count} repository | {count} repositories",
+      "followers": "{count} follower | {count} followers",
+      "following": "{count} following",
+      "viewOnGithub": "View profile on GitHub ↗"
+    },
+    "repos": {
+      "title": "Recent repositories",
+      "empty": "There are no own repositories to show yet.",
+      "noDescription": "No description.",
+      "stars": "★ {count}",
+      "updated": "Updated {date}"
+    },
+    "error": {
+      "title": "We couldn't load the profile",
+      "notFound": "We couldn't find that GitHub user.",
+      "rateLimit": "GitHub limited the requests. Try again in a few minutes.",
+      "network": "There was a connection problem with GitHub.",
+      "retry": "Retry"
     }
   },
   "projects": {
