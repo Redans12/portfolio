@@ -119,6 +119,22 @@
     "seo": {
       "title": "Contact | Portfolio",
       "description": "Write to me if you have a project or an internship opportunity."
+    },
+    "intro": "Tell me how I can help and I'll reply by email.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message ↗",
+      "sent": "Your email app opened with the message ready to send."
+    },
+    "errors": {
+      "required": "This field is required.",
+      "tooShort": "Write at least {min} characters.",
+      "invalidEmail": "Enter a valid email, for example name{'@'}domain.com."
+    },
+    "mail": {
+      "subject": "Message from {name} via the portfolio"
     }
   }
 }

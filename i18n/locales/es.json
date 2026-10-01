@@ -119,6 +119,22 @@
     "seo": {
       "title": "Contacto | Portfolio",
       "description": "Escríbeme si tienes un proyecto o una oportunidad de prácticas."
+    },
+    "intro": "Cuéntame en qué puedo ayudarte y te respondo por correo.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje ↗",
+      "sent": "Se abrió tu aplicación de correo con el mensaje listo para enviar."
+    },
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "tooShort": "Escribe al menos {min} caracteres.",
+      "invalidEmail": "Escribe un correo válido, por ejemplo nombre{'@'}dominio.com."
+    },
+    "mail": {
+      "subject": "Mensaje desde el portfolio de {name}"
     }
   }
 }
