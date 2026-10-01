@@ -81,6 +81,31 @@
     "seo": {
       "title": "Proyectos | Portfolio",
       "description": "Una selección de los proyectos que he desarrollado."
+    },
+    "count": "{count} proyecto | {count} proyectos",
+    "empty": "Todavía no hay proyectos para mostrar.",
+    "error": {
+      "title": "No pudimos cargar los proyectos",
+      "description": "Ocurrió un problema al leer la lista. Intenta de nuevo.",
+      "retry": "Reintentar"
+    },
+    "items": {
+      "cinefind": {
+        "title": "CineFind",
+        "description": "Buscador vertical de películas con corpus propio y ranking TF-IDF."
+      },
+      "pml-platform": {
+        "title": "Plataforma PML",
+        "description": "Plataforma full-stack para consultar los Precios Marginales Locales del mercado eléctrico."
+      },
+      "eye-clinic": {
+        "title": "Sitio para clínica oftalmológica",
+        "description": "Página web informativa para una clínica oftalmológica."
+      },
+      "restaurant-orders": {
+        "title": "App de pedidos para restaurante",
+        "description": "Aplicación para gestionar los pedidos de un restaurante."
+      }
     }
   },
   "contact": {
