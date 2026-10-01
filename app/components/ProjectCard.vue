@@ -17,7 +17,7 @@ const key = computed(() => `projects.items.${props.project.slug}`)
     <h2 class="mt-2 font-display text-xl font-bold text-headline">
       <NuxtLink
         :to="localePath({ name: 'projects-slug', params: { slug: project.slug } })"
-        class="after:absolute after:inset-0 hover:text-brand"
+        class="after:absolute after:inset-0 hover:text-accent"
       >
         {{ t(`${key}.title`) }}
       </NuxtLink>

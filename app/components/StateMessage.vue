@@ -9,7 +9,7 @@ defineEmits<{ action: [] }>()
     <p class="mt-2 text-paragraph">{{ description }}</p>
     <button
       type="button"
-      class="mt-4 rounded-full border border-line px-5 py-2 text-sm font-semibold text-headline transition-colors hover:border-brand hover:text-brand"
+      class="mt-4 rounded-full border border-line px-5 py-2 text-sm font-semibold text-headline transition-colors hover:border-brand hover:text-accent"
       @click="$emit('action')"
     >
       {{ actionLabel }}

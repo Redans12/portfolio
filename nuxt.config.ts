@@ -22,6 +22,7 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
     ],
     detectBrowserLanguage: false,
+    baseUrl: process.env.NUXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
     customRoutes: 'config',
     pages: {
       about: { es: '/sobre-mi', en: '/about' },

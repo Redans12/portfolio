@@ -5,7 +5,7 @@ withDefaults(defineProps<{ to: string; variant?: 'primary' | 'secondary' }>(), {
 
 const variants = {
   primary: 'bg-brand text-brand-fg hover:bg-brand/85',
-  secondary: 'border border-line text-headline hover:border-brand hover:text-brand',
+  secondary: 'border border-line text-headline hover:border-brand hover:text-accent',
 }
 </script>
 
