@@ -106,6 +106,12 @@
         "title": "Restaurant ordering app",
         "description": "Application to manage a restaurant's orders."
       }
+    },
+    "back": "← Back to projects",
+    "detail": {
+      "year": "Year",
+      "tags": "Tags",
+      "notFound": "Project not found"
     }
   },
   "contact": {
