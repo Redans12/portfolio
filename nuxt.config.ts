@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     pages: {
       about: { es: '/sobre-mi', en: '/about' },
       'projects/index': { es: '/proyectos', en: '/projects' },
+      'projects/[slug]': { es: '/proyectos/[slug]', en: '/projects/[slug]' },
       contact: { es: '/contacto', en: '/contact' },
     },
   },

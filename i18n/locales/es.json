@@ -106,6 +106,12 @@
         "title": "App de pedidos para restaurante",
         "description": "Aplicación para gestionar los pedidos de un restaurante."
       }
+    },
+    "back": "← Volver a proyectos",
+    "detail": {
+      "year": "Año",
+      "tags": "Etiquetas",
+      "notFound": "Proyecto no encontrado"
     }
   },
   "contact": {
