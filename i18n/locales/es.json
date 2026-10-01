@@ -136,5 +136,17 @@
     "mail": {
       "subject": "Mensaje desde el portfolio de {name}"
     }
+  },
+  "errorPage": {
+    "code": "Error {code}",
+    "backHome": "Volver al inicio",
+    "notFound": {
+      "title": "Página no encontrada",
+      "description": "La página que buscas no existe o fue movida."
+    },
+    "generic": {
+      "title": "Algo salió mal",
+      "description": "Ocurrió un error inesperado. Intenta de nuevo más tarde."
+    }
   }
 }

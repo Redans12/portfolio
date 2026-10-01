@@ -136,5 +136,17 @@
     "mail": {
       "subject": "Message from {name} via the portfolio"
     }
+  },
+  "errorPage": {
+    "code": "Error {code}",
+    "backHome": "Back to home",
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you are looking for doesn't exist or was moved."
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "description": "An unexpected error happened. Please try again later."
+    }
   }
 }
