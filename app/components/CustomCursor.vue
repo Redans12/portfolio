@@ -43,9 +43,13 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div ref="cursor" class="pointer-events-none fixed top-0 left-0 z-[100]" aria-hidden="true">
+  <div
+    ref="cursor"
+    class="pointer-events-none fixed top-0 left-0 z-[100] mix-blend-difference"
+    aria-hidden="true"
+  >
     <div
-      class="size-8 rounded-full bg-white mix-blend-difference transition-[opacity,scale] duration-200"
+      class="size-8 rounded-full bg-white transition-[opacity,scale] duration-200"
       :class="[isActive ? 'opacity-100' : 'opacity-0', isOverLink ? 'scale-150' : 'scale-100']"
     />
   </div>
