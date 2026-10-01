@@ -2,7 +2,7 @@
 
 Portfolio personal bilingüe (español / inglés) hecho con Nuxt, Vue 3 y TypeScript como prueba técnica de residencias. Incluye una página de inicio animada, una sección "Sobre mí" alimentada por la API pública de GitHub, un listado de proyectos con página de detalle y un formulario de contacto accesible.
 
-- **Sitio publicado:** _pendiente: agregar la URL de despliegue_
+- **Sitio publicado:** _pendiente: https://portfolio-andres-ibarrola.vercel.app/_
 - **Diseño en Figma:** https://www.figma.com/design/mNyQK1KjPqXLIhzuSgl817 (pantallas de Inicio y Sobre mí; el resto de páginas se construyó directamente en código)
 
 ## Tecnologías
