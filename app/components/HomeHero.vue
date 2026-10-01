@@ -8,7 +8,7 @@ const localePath = useLocalePath()
     <FloatingIcons />
     <p class="font-mono text-sm text-accent">{{ t('home.hero.greeting') }}</p>
     <h1 class="font-display text-5xl font-extrabold text-headline sm:text-7xl lg:text-8xl">
-      <TypedName :text="t('brand.name')" />
+      <TypedName :text="t('brand.name')" :alternate-text="t('brand.nameJapanese')" />
     </h1>
     <JapaneseLine :text="t('home.hero.japanese')" />
     <p class="max-w-xl text-lg text-paragraph">{{ t('home.hero.role') }}</p>
