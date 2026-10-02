@@ -42,7 +42,8 @@
   "footer": {
     "social": {
       "label": "Redes sociales",
-      "github": "GitHub"
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
     },
     "copyright": "© {year} {name}. Todos los derechos reservados."
   },
